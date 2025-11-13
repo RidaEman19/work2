@@ -7,11 +7,17 @@ git branch -M master
 git branch
 git remote add origin https://github.com/RidaEman19/rfr.git
 git push -u origin main
-git config --global http.proxy http://200.100.100.250:8080
+git config --global http.proxy http://200.100.100.250:8080  (in aptech)
+git pull origin main --rebase (if you gets some error afer push)
+git add .
+git commit -m "initial commit"
+git push https://github.com/RidaEman19/YOUR REPO NAME
 
+
+for downloading project from github
+git clone 
 
 windows credential
-git pull origin main --rebase
 git remote -v
 git remote remove origin
 git remote set-url origin https://github.com/RidaEman19/portfoliomy.git
